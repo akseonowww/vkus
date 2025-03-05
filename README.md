@@ -1,7 +1,7 @@
 # VKUS
 VK Universe Sound (Музыкальная вселенная ВКонтакте)
 
-![image](./logo.gif1)
+![image](./logo.gif)
 
 ## ✅ Задачи
 
