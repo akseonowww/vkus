@@ -1,0 +1,111 @@
+{
+   "background": {
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_popup": "popup_full.html",
+      "default_title": "VK Музыкальный плеер"
+   },
+   "commands": {
+      "add": {
+         "description": "Добавить аудиозапись",
+         "global": true
+      },
+      "info": {
+         "description": "Информация об аудизаписи",
+         "global": true,
+         "suggested_key": {
+            "chromeos": "Alt+Shift+7",
+            "default": "Ctrl+Shift+7",
+            "linux": "Alt+Shift+7",
+            "mac": "Command+Shift+7",
+            "windows": "Ctrl+Shift+7"
+         }
+      },
+      "logout": {
+         "description": "Выйти из вк",
+         "global": true
+      },
+      "mute": {
+         "description": "Приглушить все вкладки",
+         "global": true
+      },
+      "next": {
+         "description": "Следующая аудиозапись",
+         "global": true,
+         "suggested_key": {
+            "chromeos": "Alt+Shift+0",
+            "default": "Ctrl+Shift+0",
+            "linux": "Alt+Shift+0",
+            "mac": "Command+Shift+0",
+            "windows": "Ctrl+Shift+0"
+         }
+      },
+      "open": {
+         "description": "Открыть вкладку с музыкой VK",
+         "global": true
+      },
+      "play": {
+         "description": "Плей/Пауза",
+         "global": true,
+         "suggested_key": {
+            "chromeos": "Alt+Shift+8",
+            "default": "Ctrl+Shift+8",
+            "linux": "Alt+Shift+8",
+            "mac": "Command+Shift+8",
+            "windows": "Ctrl+Shift+8"
+         }
+      },
+      "prev": {
+         "description": "Предыдущая аудиозапись",
+         "global": true
+      },
+      "progress_down": {
+         "description": "Перемотать назад",
+         "global": true
+      },
+      "progress_up": {
+         "description": "Перемотать вперед",
+         "global": true
+      },
+      "repeat": {
+         "description": "Повторять аудиозапись",
+         "global": true
+      },
+      "shuffle": {
+         "description": "Случайный порядок",
+         "global": true
+      },
+      "up_current_audio": {
+         "description": "Поднять текущую песню вверх в плейлисте",
+         "global": true
+      },
+      "volume_down": {
+         "description": "Громкость-",
+         "global": true
+      },
+      "volume_up": {
+         "description": "Громкость+",
+         "global": true
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "js/content.js" ],
+      "matches": [ "http://*.vk.com/*", "https://*.vk.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Управляй музыкой из VK через удобный плеер или горячие клавиши, работающие даже при свернутом браузере!",
+   "icons": {
+      "16": "ico16p.png",
+      "48": "logo48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAj4HvDFLEUcMUPAQ13Jhvhrc4ttAqMVs9DMxbKaa85KTAxp3MgFhM0JCUI2EzC3uQ3lILCjM/af0i/ctjQlBxzsv9EOCbJAAC+IPRrXTabgTULNX/Uj+s3h4gQH/uyL2tbsv0MdhOTnujukYYFHalqRZtvTURvmnN++Kzy/lgM2+NyZoxPahZSfqyzp8OlVP2FoYr1jrVRzz9SPPG1i7Wi3GO9LsCZQo7IC36889r0vcKr8l62AXCp+zDeXAQGJrWXho4Lr1KbWJJBs+cPfwdlFCffpLXQzxhEEMLOG9UivqaUMGVnJyrJzfM94SJbT9KJf7YWbjs/Aak9pOYf8LnPQIDAQAB",
+   "manifest_version": 2,
+   "name": "VK Музыкальный плеер",
+   "options_page": "settings.html",
+   "permissions": [ "tabs", "notifications", "storage", "*://vk.com/*", "*://*.vk.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.4.1",
+   "web_accessible_resources": [ "logo48.png", "js/inject.js", "empty_album.jpg" ]
+}

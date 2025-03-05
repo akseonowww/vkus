@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+*, *:after, *:before {
+    box-sizing: border-box;
+    padding: 0;
+    z-index: 2;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Open Sans';
+    background: #ffffff;
+}
+
+div.container {
+    width: 210px;
+    height: auto;
+    /*margin: 5% auto 0;*/
+    position: relative;
+    background: #333;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+    overflow: hidden;
+}
+
+div.info {
+    text-align: center;
+    color: #fff;
+}
+
+div.info h3 {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 6px;
+}
+
+div.info p {
+    font-size: 10px;
+    color: #999;
+    margin: 7px 0;
+}
+
+div#actions {
+    text-align: center;
+    margin: 20px 0;
+}
+
+div#actions .previous, div#actions .next {
+    font-size: 16px;
+    margin: 0 6px;
+    color: #FFF;
+}
+
+div#actions .play {
+    font-size: 30px;
+    margin: 0 15px;
+    color: #FFF;
+}
+
+div#options {
+    text-align: center;
+    display: block;
+    font-size: 9pt;
+}
+
+div#options a {
+    color: #999;
+    margin: 0 5px;
+}
+
+div#options a.active {
+    color: #e74c3c;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, .0);
+}
+
+::selection {
+    color: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, .0);
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.6;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.6;
+    }
+}

@@ -1,0 +1,26 @@
+{
+   "author": "Kwilz",
+   "content_scripts": [ {
+      "js": [ "assets/js/load.js" ],
+      "matches": [ "https://vk.com/*", "https://m.vk.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Анимируйте ваш Вконтакте, настройте стиль анимаций с меню в профиле или настройках VK Styles. Поддерживает различные расширения.",
+   "homepage_url": "https://vk.com/lolaka40",
+   "host_permissions": [ "*://m.vk.com/*", "*://vk.com/*" ],
+   "icons": {
+      "128": "assets/icons/128.png",
+      "512": "assets/icons/512.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlVPq3Cd1t7rYfP0MLPLg/3Rw/1mvwCEqCpvNn07IGHMyj+xW3cwig3iWc9xvpBOGg1Z0O6Izcu6UP6wk3zKUDufJ2j7D04ehy+pj1xlxvY+XALpilafyPLDWiFFOmLlZ2kaxA3elK98d4dDnLitBGdUe/LLrnaaBCEhc6cuKCs5gpFgGElaAUsSeTJMnmhv7zJaEmljiY22KF4pgS/28BilUKPGMtOZ3cn4Wb9CjJfIoZStOnDMu0RlCefGHtlR6fLJWYSn4wW6B7f5CkaVyqxGM7SFMASpUNHb4VAkfWPXRRkbeT+vb3LxxPsOrHAFLVc8nw4v6iH4ecyqJHal+OwIDAQAB",
+   "manifest_version": 3,
+   "name": "VK Animated - Анимации Вконтакте",
+   "short_name": "VK Animated",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.1",
+   "version_name": "Alpha 0.0.1",
+   "web_accessible_resources": [ {
+      "matches": [ "https://vk.com/*", "https://m.vk.com/*" ],
+      "resources": [ "assets/*" ]
+   } ]
+}

@@ -1,0 +1,32 @@
+{
+   "author": "hadaev.ivan@gmail.com",
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon-128.png",
+      "default_title": "__MSG_extDefaultTitle__"
+   },
+   "content_scripts": [ {
+      "css": [ "content.css" ],
+      "js": [ "page.js", "content.js" ],
+      "matches": [ "*://vk.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "ru",
+   "description": "__MSG_extDescription__",
+   "homepage_url": "https://vk.com/blue_player",
+   "icons": {
+      "128": "icon-128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhqyt43eUWq+muBxy7f4OCyB70THLWienxe5fy8ofUYNi4VhBcXfvYEwBfhUQqJ7iRVnVhGTAm256hVBbgkAz0R17S3j7V5zB9gpZLzhGLAt0wvtirx3j9R0LzKx45k8oFNi1SgypF8QMtJk9LYcEXR/aMcW1J1kVx2dW/CBJxYeAyBCq1EGkPcKy7C1ZRf6nV1y+s0WMBB29j75IwNb6/zxVw5kki/gu8fIYzrnX87WaWFLzRVzZ7cTnNgNXD5Ids6kNw3qSu96u7BAuPTuD8aWggAp5gb6N7fBC3CBAwhWHPMLHaghd7m2PVfGFaZB0GG96WPD0H2JlFJVgKBGEjQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "40",
+   "name": "__MSG_extName__",
+   "permissions": [ "tabs", "storage", "unlimitedStorage", "identity", "contextMenus", "*://vk.com/*", "*://m.vk.com/*", "*://www.gl5.ru/*", "*://www.megalyrics.ru/*", "*://megalyrics.ru/*", "*://genius.com/*", "*://lyricshare.net/*", "*://uk.ask.com/*", "*://www.bing.com/*", "*://duckduckgo.com/*", "*://xo.wtf/*", "*://www.startpage.com/*", "*://ws.audioscrobbler.com/*", "*://www.last.fm/*" ],
+   "short_name": "VK Blue",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.6.58",
+   "web_accessible_resources": [ "*.mp3", "*.png", "*.jpg", "*.gif", "*.ttf", "*.svg", "*.wav" ]
+}

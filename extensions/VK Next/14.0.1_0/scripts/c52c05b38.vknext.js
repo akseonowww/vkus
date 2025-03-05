@@ -1,0 +1,1 @@
+﻿"use strict";(globalThis.webpackChunkvknext=globalThis.webpackChunkvknext||[]).push([[1192],{61685:(a,t,n)=>{n.d(t,{l:()=>s});const s="vknext/settings"},81192:(a,t,n)=>{n.d(t,{default:()=>o});var s=n(82050),i=n(14943),e=n(4107),l=n(61685);const o=async a=>{(await(0,e.A)()).go(l.l),a&&(await(0,i.A)(),await(0,s.A)(100),window.location.hash=a)}}}]);

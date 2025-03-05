@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>VK Music Player - Настройки</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <script src='js/jquery.min.js'></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/settings.js"></script>
+</head>
+
+<body>
+<nav>
+    <div class="nav-wrapper">
+        <a target="_blank"
+           href="https://chrome.google.com/webstore/detail/vk-%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%BF%D0%BB%D0%B5%D0%B5%D1%80/jdcodafmbknbopclkbcnfkohmeaeapeg"
+           class="brand-logo right">VK Music Player</a>
+        <ul class="left hide-on-med-and-down">
+            <li><a href="news.html">Новости</a></li>
+            <li class="active"><a href="settings.html">Настройки</a></li>
+            <li><a href="help.html">Помощь</a></li>
+            <li><a target="_blank" href="http://yasobe.ru/na/vkplayer#form_submit">Поддержать проект</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="row">
+    <div class="col s12">
+        <h5>Настройки</h5>
+
+        <div class="row">
+            <div class="col s9">
+                <p>
+                    <input type="checkbox" id="popup-simple" class="checkbox"/>
+                    <label for="popup-simple">Упрощенный интерфейс</label>
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="cols s9">
+                <div class="col s2">
+                    <div class="input-field">
+                        <p class="range-field">
+                            Шаг уменьшения громкости
+                            <input type="range" id="volumeStepMin" min="1" max="50" value="10"/>
+                        </p>
+                    </div>
+                </div>
+                <div class="col s2">
+                    <div class="input-field">
+                        <p class="range-field">
+                            Шаг увеличения громкости
+                            <input type="range" id="volumeStepMax" min="1" max="50" value="10"/>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s9">
+                <p>
+                    <input type="checkbox" id="notifications" class="checkbox"/>
+                    <label for="notifications">Отображать всплывающее окно с информацией о текущей аудиозаписи и дополнительными
+                        кнопками управления</label>
+                </p>
+                <div class="col s6">
+                    <div class="input-field">
+                        <select id="notifkey1" class="hot-keys" title="">
+                            <option value="play">Плей/Пауза</option>
+                            <option value="next">Следующая аудиозапись</option>
+                            <option value="prev">Предыдущая аудиозапись</option>
+                            <option value="add">Добавить аудиозапись</option>
+                            <option value="repeat">Повторять аудиозапись</option>
+                            <option value="shuffle">Случайный порядок</option>
+                            <option value="mute">Приглушить все вкладки</option>
+                        </select>
+                        <label>Кнопка уведомления #1</label>
+                    </div>
+                </div>
+                <div class="col s6">
+                    <div class="input-field">
+                        <select id="notifkey2" class="hot-keys" title="">
+                            <option value="play">Плей/Пауза</option>
+                            <option value="next">Следующая аудиозапись</option>
+                            <option value="prev">Предыдущая аудиозапись</option>
+                            <option value="add">Добавить аудиозапись</option>
+                            <option value="repeat">Повторять аудиозапись</option>
+                            <option value="shuffle">Случайный порядок</option>
+                            <option value="mute">Приглушить все вкладки</option>
+                        </select>
+                        <label>Кнопка уведомления #2</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>

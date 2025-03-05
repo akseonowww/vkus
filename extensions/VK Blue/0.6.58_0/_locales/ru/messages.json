@@ -1,0 +1,43 @@
+{
+   "creator_code_link": {
+      "description": "Ссылка на профиль разработчика",
+      "message": "https://vk.com/hadaev_ivan"
+   },
+   "creator_code_name": {
+      "description": "Имя разработчика",
+      "message": "Ivan Hadaev"
+   },
+   "creator_design_link": {
+      "description": "Ссылка на профиль разработчика",
+      "message": "https://vk.com/timothyk"
+   },
+   "creator_design_name": {
+      "description": "Имя разработчика",
+      "message": "Timothy Kozak"
+   },
+   "creator_media_link": {
+      "description": "Ссылка на профиль дизайнера",
+      "message": "https://vk.com/id30587638"
+   },
+   "creator_media_name": {
+      "description": "Имя дизайнера",
+      "message": "Taras Bedenko"
+   },
+   "elements_design_link": {
+      "description": "Ссылка на профиль дизайнера",
+      "message": "https://vk.com/id17100076"
+   },
+   "elements_design_name": {
+      "description": "Имя дизайнера",
+      "message": "Polina Ovsyanyk"
+   },
+   "extDefaultTitle": {
+      "message": "VK Blue - Эквалайзер и Скробблер для ВК"
+   },
+   "extDescription": {
+      "message": "Расширение стандартного плеера ВК (vk.com). Эквалайзер, Last.fm, управление медиа клавишами, биография исполнителя и слова."
+   },
+   "extName": {
+      "message": "VK Blue - Эквалайзер и Скробблер для ВК"
+   }
+}
