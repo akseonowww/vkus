@@ -1,5 +1,5 @@
 # VKUS
-VK Universe Sound (Музыкальная вселенная ВКонтакте)
+VK Universe Sound (Вселенная звука ВКонтакте) — [Trello](https://trello.com/b/cSpLwvpd)
 
 ![image](./logo.gif)
 
