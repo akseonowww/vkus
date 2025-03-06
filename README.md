@@ -7,7 +7,6 @@ VKUS
 
 <p align="center">
 VK Universe Sound ★ <a href="https://trello.com/b/cSpLwvpd">Trello</a> </br>   
-Вселенная звука ВКонтакте </br>   
 </p>
 
 <!-- <p align="center">
