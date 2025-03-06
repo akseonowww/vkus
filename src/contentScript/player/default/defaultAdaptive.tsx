@@ -3,23 +3,23 @@ import { player } from "../player";
 export let playerDefaultAdaptive = (statusModeDev = !1) => {
    const modeDev = statusModeDev
       ? `
-.vkus-player-new ${player.is},
-.vkus-player-new ${player.is} *,
-.vkus-player-new ${player.info.text.in},
-.vkus-player-new ${player.info.cover.is}:active,
-.vkus-player-new ${player.controls.is},
-.vkus-player-new ${player.controls.user.is},
-.vkus-player-new ${player.controls.user.is} div:has(> button),
-.vkus-player-new ${player.controls.user.is} > div > div:last-child,
-.vkus-player-new ${player.controls.other.is},
-.vkus-player-new ${player.controls.other.is} button,
-.vkus-player-new ${player.progressbar.is},
-.vkus-player-new ${player.buttons.is},
-.vkus-player-new ${player.buttons.is} button,
-{
-   box-sizing: border-box;
-   border: 1px solid #E64646;
-}
+   .vkus-player-new ${player.is},
+   .vkus-player-new ${player.is} *,
+   .vkus-player-new ${player.info.text.in},
+   .vkus-player-new ${player.info.cover.is}:active,
+   .vkus-player-new ${player.controls.is},
+   .vkus-player-new ${player.controls.user.is},
+   .vkus-player-new ${player.controls.user.is} div:has(> button),
+   .vkus-player-new ${player.controls.user.is} > div > div:last-child,
+   .vkus-player-new ${player.controls.other.is},
+   .vkus-player-new ${player.controls.other.is} button,
+   .vkus-player-new ${player.progressbar.is},
+   .vkus-player-new ${player.buttons.is},
+   .vkus-player-new ${player.buttons.is} button,
+   {
+      box-sizing: border-box;
+      border: 1px solid #E64646;
+   }
    .vkus-player-new ${player.is} {
       border: 2px solid #447BBA;
    }
@@ -191,68 +191,68 @@ export let playerDefaultAdaptive = (statusModeDev = !1) => {
    // Обложка
    // ======================
    let cover = `
-#page_layout .vkus-player-new ${player.info.cover.is} {
-   margin-right: 12px;
-   padding-right: 0;
-   transition: transform 0.7s, background-image 0.7s;
-   transition: all 0.7s;
-}
-#page_layout .vkus-player-new ${player.info.cover.is} {
-   cursor: pointer;
-}
-#page_layout .vkus-player-new ${player.info.cover.image} {
-   height: var(--cover-size); width: var(--cover-size); 
-   border-radius: var(--cover-radius);
-   position: relative;
-   z-index: 3;
-   transition: transform 0.7s, scale .5s, translateX .6s, 
-   border-radius 0.2s, z-index 0.7s;
-}
-#page_layout .vkus-player-new ${player.info.cover.image} img { 
-   transition: all .5s;
-}   
-#page_layout .vkus-player-new ${player.info.cover.image}:has(img):hover {
-   border-radius: 2px;
-}
-#page_layout .vkus-player-new ${player.info.cover.image} img:hover {
-   border-radius: 2px;
-   z-index: 10;
-   transform: translate(28px, 18px) scale(2);
-}
-/*
-#page_layout .vkus-player-new ${player.info.cover.is}:active img {
-   transform: scale(.9);
-   border: 2px solid red;
-}
-*/
-#page_layout .vkus-player-new ${player.info.cover.image}:has(svg) {
-   border: var(--vkui--size_border--regular) solid var(--vkui--color_image_border_alpha);
-}
-#page_layout .vkus-player-new ${player.info.cover.image} div[class*='border'] {
-   display: none;
-}
-#page_layout .vkus-player-new ${player.info.cover.is} svg {
-   width: calc(var(--cover-size) -30px);
-   height: calc(var(--cover-size) -30px);
-   margin-top: 0px;
-   scale: 2;
-}
+   #page_layout .vkus-player-new ${player.info.cover.is} {
+      margin-right: 12px;
+      padding-right: 0;
+      transition: transform 0.7s, background-image 0.7s;
+      transition: all 0.7s;
+   }
+   #page_layout .vkus-player-new ${player.info.cover.is} {
+      cursor: pointer;
+   }
+   #page_layout .vkus-player-new ${player.info.cover.image} {
+      height: var(--cover-size); width: var(--cover-size); 
+      border-radius: var(--cover-radius);
+      position: relative;
+      z-index: 3;
+      transition: transform 0.7s, scale .5s, translateX .6s, 
+      border-radius 0.2s, z-index 0.7s;
+   }
+   #page_layout .vkus-player-new ${player.info.cover.image} img { 
+      transition: all .5s;
+   }   
+   #page_layout .vkus-player-new ${player.info.cover.image}:has(img):hover {
+      border-radius: 2px;
+   }
+   #page_layout .vkus-player-new ${player.info.cover.image} img:hover {
+      border-radius: 2px;
+      z-index: 10;
+      transform: translate(28px, 18px) scale(2);
+   }
+   /*
+   #page_layout .vkus-player-new ${player.info.cover.is}:active img {
+      transform: scale(.9);
+      border: 2px solid red;
+   }
+   */
+   #page_layout .vkus-player-new ${player.info.cover.image}:has(svg) {
+      border: var(--vkui--size_border--regular) solid var(--vkui--color_image_border_alpha);
+   }
+   #page_layout .vkus-player-new ${player.info.cover.image} div[class*='border'] {
+      display: none;
+   }
+   #page_layout .vkus-player-new ${player.info.cover.is} svg {
+      width: calc(var(--cover-size) -30px);
+      height: calc(var(--cover-size) -30px);
+      margin-top: 0px;
+      scale: 2;
+   }
 
-/* Анимация фона */
-#page_layout .vkus-player-new ${player.info.cover.is} .animate {
-   opacity: .8;
-   background-color: var(--vkui--color_background_content);
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   position: absolute;
-   top: 0;
-   left: 0;
-   z-index: -2;
-   translate: 0px -1px; 
-   filter: blur(8px);
-   animation: sizeBig 10s ease 0s infinite normal forwards;
-}
+   /* Анимация фона */
+   #page_layout .vkus-player-new ${player.info.cover.is} .animate {
+      opacity: .8;
+      background-color: var(--vkui--color_background_content);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -2;
+      translate: 0px -1px; 
+      filter: blur(8px);
+      animation: sizeBig 10s ease 0s infinite normal forwards;
+   }
 `;
 
    // ======================
@@ -310,7 +310,6 @@ export let playerDefaultAdaptive = (statusModeDev = !1) => {
    #page_layout .vkus-player-new ${player.controls.other.shuffle} {
       transform: translate(-118px, 1px);
    } 
-*/
 */`;
 
    // ======================
