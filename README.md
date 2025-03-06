@@ -1,12 +1,25 @@
-# VKUS
+<h1 align="center">
+<sub>
+<img src="src/static/icon128.png" height="38" width="38">
+</sub>
+VKUS
+</h1>
 
-VK Universe Sound (Вселенная звука ВКонтакте)
+<p align="center">
+VK Universe Sound ★ <a htef="https://trello.com/b/cSpLwvpd">Trello</a> </br>   
+Вселенная звука ВКонтакте </br>   
+</p>
 
-![image](./logo.gif)
+<!-- <p align="center">
+<a href="https://addons.mozilla.org/addon/ublock-origin/"><img src="https://user-images.githubusercontent.com/585534/107280546-7b9b2a00-6a26-11eb-8f9f-f95932f4bfec.png" alt="Get uBlock Origin for Firefox"></a>
+<a href="https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak"><img src="https://user-images.githubusercontent.com/585534/107280673-a5ece780-6a26-11eb-9cc7-9fa9f9f81180.png" alt="Get uBlock Origin for Microsoft Edge"></a>
+<a href="https://addons.opera.com/extensions/details/ublock/"><img src="https://user-images.githubusercontent.com/585534/107280692-ac7b5f00-6a26-11eb-85c7-088926504452.png" alt="Get uBlock Origin for Opera"></a>
+<a href="https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm"><img src="https://user-images.githubusercontent.com/585534/107280622-91a8ea80-6a26-11eb-8d07-77c548b28665.png" alt="Get uBlock Origin for Chromium"></a><br>
+<sub><a href="https://github.com/uBlockOrigin/uBlock-issues/wiki/About-Google-Chrome's-%22This-extension-may-soon-no-longer-be-supported%22"><b>IMPORTANT</b>: About Google Chrome's "This extension may soon no longer be supported"</a></sub>
+</p> -->
 
-[Trello](https://trello.com/b/cSpLwvpd)
+<!-- ![image](./logo.gif) -->
 
-## Апишки
 
 ### Genius
 
