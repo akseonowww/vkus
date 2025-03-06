@@ -6,7 +6,7 @@ VKUS
 </h1>
 
 <p align="center">
-VK Universe Sound ★ <a htef="https://trello.com/b/cSpLwvpd">Trello</a> </br>   
+VK Universe Sound ★ <a href="https://trello.com/b/cSpLwvpd">Trello</a> </br>   
 Вселенная звука ВКонтакте </br>   
 </p>
 
